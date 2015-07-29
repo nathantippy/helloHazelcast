@@ -15,7 +15,7 @@ public class HelloHazelcast {
     //Simple count down latch example
     ////////////////////////////////    
 
-    private final static int MEMBER_COUNT = 10; //For easy testing reduce this
+    public final static int MEMBER_COUNT = 5; //for time this was reduced to only 5 instances.
     private final static Logger log = LoggerFactory.getLogger(HelloHazelcast.class);
     final static String LATCH_NAME="helloHazelcast Latch";
     private final static int TIME_OUT = 60*30; //30 minutes
